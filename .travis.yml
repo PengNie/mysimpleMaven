@@ -2,7 +2,7 @@ language: java
 jdk:
   - oraclejdk8
 sudo: false
-before_script: composer install --no-interaction
+before_script: cd mysimpleMaven
 script: mvn clean verify
 jdk:
   - oraclejdk8
